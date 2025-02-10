@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Objects and Arrays</title>
+</head>
+<body>
+    <script>
+        // Creating an object
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30,
+            city: "New York"
+        };
+
+        // Displaying object properties using keys
+        console.log("First Name: " + person.firstName);
+        console.log("Last Name: " + person.lastName);
+        console.log("Age: " + person.age);
+        console.log("City: " + person.city);
+
+        // Creating an array
+        const fruits = ["Apple", "Banana", "Cherry", "Date"];
+
+        // Displaying array elements using index
+        console.log("First Fruit: " + fruits[0]);
+        console.log("Second Fruit: " + fruits[1]);
+        console.log("Third Fruit: " + fruits[2]);
+        console.log("Fourth Fruit: " + fruits[3]);
+
+        // Using join function to display the whole array as a string
+        console.log("Fruits: " + fruits.join(", "));
+
+        // Using pop function to remove the last element and display the array
+        fruits.pop();
+        console.log("Fruits after pop: " + fruits.join(", "));
+    </script>
+</body>
+</html>
